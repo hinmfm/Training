@@ -25,9 +25,9 @@ public class lab03bai03 {
 
         int idx = a.length - 1;
 
-        System.err.println(Arrays.toString(a));
-        System.err.printf("min = %d\n", a[0]);
-        System.err.printf("max = %d", a[idx]);
+        System.out.println(Arrays.toString(a));
+        System.out.printf("min = %d\n", a[0]);
+        System.out.printf("max = %d", a[idx]);
 
         sc.close();
     }
