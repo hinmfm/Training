@@ -26,8 +26,8 @@ public class lab03bai03 {
         int idx = a.length - 1;
 
         System.err.println(Arrays.toString(a));
-        System.err.printf("Phần tử nhỏ nhất là: %d\n", a[0]);
-        System.err.printf("Phần tử lớn nhất là: %d", a[idx]);
+        System.err.printf("min = %d\n", a[0]);
+        System.err.printf("max = %d", a[idx]);
 
         sc.close();
     }
